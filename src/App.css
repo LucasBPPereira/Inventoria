@@ -1,0 +1,29 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-subtle);
+  overflow-x: hidden;
+}
+
+.content-area {
+  padding: 2rem;
+  flex: 1;
+}
+
+.placeholder-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  background: white;
+  border-radius: var(--radius-lg);
+  border: 1px dashed var(--border-color);
+}
